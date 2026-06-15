@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f8f9fa;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto; /* Ye line center mein laati hai */
+      text-align: center;
+    }
+
+    h1 {
+      background: #0dcaf0;
+      color: white;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border: 3px solid #0dcaf0;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    button {
+      background: #0dcaf0;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      margin: 5px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0bb8e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome to Pakistani Express</h1>
+    <p>Your gateway to unforgettable adventures!</p>
+    
+    <img src="data:image/jpeg;base64,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" alt="Plane">
+    
+    <div>
+        <a href="/destination.html">   <button>Explore destination</button></a>
+   <a href="/contact .html">  <button>Contact</button></a>
+    
+    </div>
+  </div>
+</body>
+</html>
